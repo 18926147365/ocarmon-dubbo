@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.ocarmon.service.PeopleService;
 import com.ocarmon.service.UserService;
 
@@ -22,7 +23,8 @@ public class HelloController {
 	@Resource
 	private UserService userService;
 	
-	@Resource PeopleService peopleService;
+	@Resource 
+	private PeopleService peopleService;
 	
 	@ResponseBody
 	@RequestMapping("/toUser")

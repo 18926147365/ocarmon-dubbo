@@ -1,0 +1,4 @@
+下载地址：
+http://mirrors.cnnic.cn/apache/zookeeper/zookeeper-3.3.6/zookeeper-3.3.6.tar.gz
+
+点击/bin/zkServce.cmd运行
